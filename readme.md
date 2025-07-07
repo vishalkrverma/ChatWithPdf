@@ -21,6 +21,10 @@ How to Run:
 ## Screenshot
 ![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012803.png)
 
+Image 2
+
 ![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012827.png)
+
+Image 3
 
 ![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012849.png)
