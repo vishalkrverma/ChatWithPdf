@@ -16,4 +16,11 @@ How to Run:
    GOOGLE_API_KEY=your_gemini_api_key_here
 5. Run this file:
    streamlit run chatpdf_app.py
+
 """
+## Screenshot
+![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012803.png)
+
+![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012827.png)
+
+![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012828.png)
