@@ -23,4 +23,4 @@ How to Run:
 
 ![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012827.png)
 
-![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012828.png)
+![image](https://github.com/vishalkrverma/ChatWithPdf/blob/master/ScreenShots/Screenshot%202025-07-08%20012849.png)
