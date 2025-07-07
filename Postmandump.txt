@@ -1,0 +1,97 @@
+{
+  "info": {
+    "_postman_id": "b1234567-cafe-4d99-bbbb-1234567890ab",
+    "name": "ChatPDF API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Upload & Process PDF",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "files",
+              "type": "file",
+              "src": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8501/upload",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8501",
+          "path": ["upload"]
+        }
+      }
+    },
+    {
+      "name": "Ask Question from PDF",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What is the main topic of the document?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8501/ask",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8501",
+          "path": ["ask"]
+        }
+      }
+    },
+    {
+      "name": "Get Document Summary",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8501/summary",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8501",
+          "path": ["summary"]
+        }
+      }
+    },
+    {
+      "name": "Generate Challenge Questions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8501/challenge",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8501",
+          "path": ["challenge"]
+        }
+      }
+    },
+    {
+      "name": "Evaluate Answer to a Question",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What is the core message?\",\n  \"answer\": \"It is about AI in education.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8501/evaluate",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8501",
+          "path": ["evaluate"]
+        }
+      }
+    }
+  ]
+}
